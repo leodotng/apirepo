@@ -15,7 +15,10 @@ var chucky = document.getElementById('chucky');
     var chuckquote = quotedata.value;
   //console.log(newcontent)
     quoteH1.innerHTML = chuckquote;
-    newcontent.append(chuckquote)
+
+// changed append top innerHTML = chuckquote below:
+
+    newcontent.innerHTML = chuckquote
   //  console.log(chuckquote);
 
 
